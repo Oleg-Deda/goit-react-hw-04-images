@@ -1,7 +1,12 @@
+import PropTypes from 'prop-types';
+
 export const Searchbar = ({ onSubmit }) => {
   const handleFormSubmit = evt => {
     evt.preventDefault();
-    onSubmit(evt.currentTarget.query.value);
+    let query = evt.currentTarget.query.value.trim();
+    if (query) {
+      onSubmit(query);
+    }
   };
 
   return (
@@ -22,4 +27,7 @@ export const Searchbar = ({ onSubmit }) => {
       </form>
     </header>
   );
+};
+Searchbar.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
 };
