@@ -8,7 +8,7 @@ export const ErrorMessage = ({ error }) => {
       <ErrorNote>
         Whoops, something went wrong: "{error.message}". Please try again!
       </ErrorNote>
-          </>
+               </>
   );
 };
 
