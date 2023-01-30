@@ -41,9 +41,7 @@ svg {
   margin: 0 auto;
 }
 
-/*
- * Стили компонента Searchbar
- */
+
 .Searchbar {
   top: 0;
   left: 0;
@@ -81,11 +79,7 @@ svg {
   width: 48px;
   height: 48px;
   border: 0;
-  background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg');
-  background-size: 40%;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.6;
+   opacity: 0.6;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   outline: none;
@@ -123,9 +117,7 @@ svg {
   font-size: 18px;
 }
 
-/*
- * Стили компонента ImageGallery
- */
+
 .ImageGallery {
   display: grid;
   max-width: calc(100vw - 48px);
@@ -139,9 +131,7 @@ svg {
   margin-right: auto;
 }
 
-/*
- * Стили компонента ImageGalleryItem
- */
+
 .ImageGalleryItem {
   border-radius: 2px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
@@ -160,9 +150,7 @@ svg {
   cursor: zoom-in;
 }
 
-/*
- * Стили компонента Modal
- */
+
 
 .Overlay {
   position: fixed;
